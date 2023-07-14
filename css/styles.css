@@ -1,0 +1,229 @@
+body {
+font-family: "Roboto";
+        sans-serif;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style-type: none;
+}
+
+/* ----------------HEADER---------------- */
+
+.header-logo-colour {
+    color: var(--iris, #4D5AE5);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.16;
+    /* 116.667% */
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.header-logo {
+    color: var(--navyblue, #2E2F42);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.16;
+    /* 116.667% */
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.header-menu-link {
+    color: var(--navyblue, #2E2F42);
+    /* Body Medium */
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.02em;
+}
+
+/* ----------------HERO---------------- */
+
+.hero {
+    background-color: var(--navyblue, #2E2F42);
+}
+
+.hero-title {
+    color: var(--white, #FFF);
+        text-align: center;
+        /* Header 1 */
+        font-family: Roboto;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 0.93;
+        /* 107.143% */
+        letter-spacing: 0.02em;
+}
+
+.hero-btn {
+    color: var(--white, #FFF);
+    /* Button Text */
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.04em;
+    display: inline-flex;
+
+}
+
+/* ----------------ADVANTAGES---------------- */
+
+.advantages {}
+
+.advantages-title {}
+
+.advantages-list {}
+
+.list {}
+
+.advantages-item {}
+
+.advantages-subtitle {
+    color: var(--navyblue, #2E2F42);
+    /* Header 3 */
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    /* 120% */
+    letter-spacing: 0.02em;
+}
+
+.advantages-description {
+    color: var(--slate, #434455);
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    /* Body */
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.02em;
+}
+
+/* ----------------DOING---------------- */
+
+.doing {}
+
+.doing-title {
+    color: var(--navyblue, #2E2F42);
+    text-align: center;
+    /* Header 2 */
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.1;
+    /* 111.111% */
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.doing-list {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.list {}
+
+.doing-images {}
+
+/* ----------------TEAM---------------- */
+
+.team {}
+
+.team-title {
+    color: var(--navyblue, #2E2F42);
+    text-align: center;
+    /* Header 2 */
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.1;
+    /* 111.111% */
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.team-list {}
+
+.list {}
+
+.team-item {}
+
+.team-name {
+    Mark Guerrero (Team Card 1) color: var(--navyblue, #2E2F42);
+    text-align: center;
+    /* Header 3 */
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    /* 120% */
+    letter-spacing: 0.02em;
+}
+
+.team-name-position {
+    color: var(--slate, #434455);
+    text-align: center;
+    /* Body */
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.02em;
+}
+
+/* ----------------FOOTER---------------- */
+
+.footer {
+    background-color: var(--navyblue, #2E2F42);
+}
+
+.footer-logo-colour {
+    color: var(--iris, #4D5AE5);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.16;
+    /* 116.667% */
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.footer-logo {
+    color: var(--cloud, #F4F4FD);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    /* 116.667% */
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.footer-description {
+    color: var(--cloud, #F4F4FD);
+    /* Body */
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.02em;
+}
