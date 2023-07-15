@@ -1,12 +1,10 @@
 body {
-font-family: "Roboto";sans-serif;
-color: #434455;
-background-color: #FFFFFF
+    font-family: "Roboto"; sans-serif;
+    color: #434455;
+    background-color: var(--white, #FFFFFF);
+    text-decoration: none;
 }
 
-:root {
-    
-}
 
 .link {
     text-decoration: none;
@@ -20,7 +18,7 @@ background-color: #FFFFFF
 
 .header-logo-colour {
     color: var(--navyblue, #2E2F42);
-    font-family: "Raleway",sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 800;
     line-height: 1.17;
@@ -32,7 +30,7 @@ background-color: #FFFFFF
 
 .header-logo {
     color: var(--iris, #4D5AE5);
-    font-family: "Raleway",sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 800;
     line-height: 1.17;
@@ -117,7 +115,7 @@ background-color: #FFFFFF
     letter-spacing: 0.04em;
     display: inline-flex;
     background-color: var(--iris, #4D5AE5);
-    font-family: "Roboto",sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 .hero-btn:hover {
@@ -244,7 +242,7 @@ background-color: #FFFFFF
 
 /* ----------------FOOTER---------------- */
 
-.footer {
+.footer-section {
     background-color: var(--navyblue, #2E2F42);
 }
 
@@ -283,4 +281,5 @@ background-color: #FFFFFF
     line-height: 1.5;
     /* 150% */
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
