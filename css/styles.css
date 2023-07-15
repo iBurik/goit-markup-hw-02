@@ -14,7 +14,7 @@ font-family: "Roboto";
 /* ----------------HEADER---------------- */
 
 .header-logo-colour {
-    color: var(--iris, #4D5AE5);
+    color: var(--navyblue, #2E2F42);
     font-family: Raleway;
     font-size: 18px;
     font-weight: 800;
@@ -26,7 +26,7 @@ font-family: "Roboto";
 }
 
 .header-logo {
-    color: var(--navyblue, #2E2F42);
+    color: var(--iris, #4D5AE5);
     font-family: Raleway;
     font-size: 18px;
     font-weight: 800;
@@ -48,6 +48,10 @@ font-family: "Roboto";
     letter-spacing: 0.02em;
 }
 
+.header-adress {
+    font-style: normal
+}
+
 /* ----------------HERO---------------- */
 
 .hero {
@@ -56,14 +60,14 @@ font-family: "Roboto";
 
 .hero-title {
     color: var(--white, #FFF);
-        text-align: center;
-        /* Header 1 */
-        font-family: Roboto;
-        font-size: 56px;
-        font-weight: 700;
-        line-height: 0.93;
-        /* 107.143% */
-        letter-spacing: 0.02em;
+    text-align: center;
+    /* Header 1 */
+    font-family: Roboto;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    /* 107.143% */
+    letter-spacing: 0.02em;
 }
 
 .hero-btn {
@@ -76,7 +80,8 @@ font-family: "Roboto";
     /* 150% */
     letter-spacing: 0.04em;
     display: inline-flex;
-
+    background-color: #4D5AE5
+    font-family: "Roboto", sans-serif;
 }
 
 /* ----------------ADVANTAGES---------------- */
@@ -125,7 +130,7 @@ font-family: "Roboto";
     font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.11;
     /* 111.111% */
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -143,7 +148,9 @@ font-family: "Roboto";
 
 /* ----------------TEAM---------------- */
 
-.team {}
+.team {
+    background-color: var(--white, #FFF);
+}
 
 .team-title {
     color: var(--navyblue, #2E2F42);
@@ -152,13 +159,15 @@ font-family: "Roboto";
     font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.11;
     /* 111.111% */
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 
-.team-list {}
+.team-list {
+    background-color: #FFFFFF;
+}
 
 .list {}
 
@@ -195,11 +204,12 @@ font-family: "Roboto";
 }
 
 .footer-logo-colour {
-    color: var(--iris, #4D5AE5);
-    font-family: Raleway;
+    color: var(--cloud, #F4F4FD);
+    font-family: Raleway,
+        sans-serif;
     font-size: 18px;
     font-weight: 800;
-    line-height: 1.16;
+    line-height: 1.17;
     /* 116.667% */
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -207,14 +217,16 @@ font-family: "Roboto";
 }
 
 .footer-logo {
-    color: var(--cloud, #F4F4FD);
-    font-family: Raleway;
+    color: var(--iris, #4D5AE5);
+    font-family: Raleway,
+        sans-serif;
     font-size: 18px;
     font-weight: 800;
     line-height: 1.17;
     /* 116.667% */
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 .footer-description {
