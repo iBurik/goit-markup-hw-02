@@ -5,6 +5,11 @@ body {
     text-decoration: none;
 }
 
+:root {
+    --primary-font: ;
+    --title-font: ;
+    --background-color: ;
+
 
 .link {
     text-decoration: none;
@@ -12,6 +17,20 @@ body {
 
 .list {
     list-style-type: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 /* ----------------HEADER---------------- */
@@ -114,6 +133,7 @@ body {
     display: inline-flex;
     background-color: var(--iris, #4D5AE5);
     font-family: "Roboto", sans-serif;
+    cursor: pointer;
 }
 
 .hero-btn:hover {
@@ -273,4 +293,124 @@ body {
     /* 150% */
     letter-spacing: 0.02em;
     text-decoration: none;
+}
+
+
+
+
+/*?----------------------PORTFOLIO-PAGE_______________*/
+
+.btn-all {
+    color: var(--white, #FFF);
+    /* Button Text */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.04em;
+    background-color: var(--ocean, #F4F4FD);
+    cursor: pointer;
+}
+
+.btn-all {
+    background-color: #404bbf;
+    color: #FFFFFF
+}
+
+.btn-all {
+    background-color: #404bbf;
+    color: #FFFFFF
+}
+
+.btn-site {
+    color: var(--white, #FFF);
+    /* Button Text */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.04em;
+    background-color: var(--ocean, #F4F4FD);
+    cursor: pointer;
+}
+
+.btn-site {
+    background-color: #404bbf;
+    color: #FFFFFF
+}
+
+.btn-site {
+    background-color: #404bbf;
+    color: #FFFFFF
+}
+
+.btn-app {
+    color: var(--white, #FFF);
+    /* Button Text */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.04em;
+    background-color: var(--ocean, #F4F4FD);
+    cursor: pointer;
+}
+
+.btn-app {
+    background-color: #404bbf;
+    color: #FFFFFF
+}
+
+.btn-app {
+    background-color: #404bbf;
+    color: #FFFFFF
+}
+
+.btn-design {
+    color: var(--white, #FFF);
+    /* Button Text */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.04em;
+    background-color: var(--ocean, #F4F4FD);
+    cursor: pointer;
+}
+
+.btn-design {
+    background-color: #404bbf;
+    color: #FFFFFF
+}
+
+.btn-design {
+    background-color: #404bbf;
+    color: #FFFFFF
+}
+
+.btn-marketing {
+    color: var(--white, #FFF);
+    /* Button Text */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.04em;
+    background-color: var(--ocean, #F4F4FD);
+    cursor: pointer;
+}
+
+.btn-marketing {
+    background-color: #404bbf;
+    color: #FFFFFF
+}
+
+.btn-marketing {
+    background-color: #404bbf;
+    color: #FFFFFF
 }
