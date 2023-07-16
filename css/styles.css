@@ -117,11 +117,11 @@ body {
 }
 
 .hero-btn:hover {
-    color: #404bbf;
+    background-color: #404bbf;
 }
 
 .hero-btn:focus {
-    color: #404bbf;
+    background-color: #404bbf;
 }
 
 /* ----------------ADVANTAGES---------------- */
@@ -235,7 +235,7 @@ body {
 
 /* ----------------FOOTER---------------- */
 
-.footer-section {
+.footer {
     background-color: var(--navyblue, #2E2F42);
 }
 
