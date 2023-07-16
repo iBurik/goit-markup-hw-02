@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto"; sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: var(--white, #FFFFFF);
     text-decoration: none;
@@ -67,24 +67,22 @@ body {
     font-style: normal;
 }
 
-.header-address {
+.header-address-link {
     color: var(--slate, #434455);
     /* Body */
-    font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 1.5;
     /* 150% */
     letter-spacing: 0.02em;
 }
 
-.header-address:hover {
+.header-address-link:hover {
     color: #404bbf;
 }
 
-.header-address:focus {
+.header-address-link:focus {
     color: #404bbf;
+}
 
 /* ----------------HERO---------------- */
 
@@ -124,6 +122,7 @@ body {
 
 .hero-btn:focus {
     color: #404bbf;
+}
 
 /* ----------------ADVANTAGES---------------- */
 
@@ -140,7 +139,6 @@ body {
 .advantages-subtitle {
     color: var(--navyblue, #2E2F42);
     /* Header 3 */
-    font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -152,7 +150,6 @@ body {
     color: var(--slate, #434455);
     text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     /* Body */
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -168,7 +165,6 @@ body {
     color: var(--navyblue, #2E2F42);
     text-align: center;
     /* Header 2 */
-    font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
@@ -197,7 +193,6 @@ body {
     color: var(--navyblue, #2E2F42);
     text-align: center;
     /* Header 2 */
-    font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
@@ -220,7 +215,6 @@ body {
     color: var(--navyblue, #2E2F42);
     text-align: center;
     /* Header 3 */
-    font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -232,7 +226,6 @@ body {
     color: var(--slate, #434455);
     text-align: center;
     /* Body */
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -248,8 +241,7 @@ body {
 
 .footer-logo-colour {
     color: var(--cloud, #F4F4FD);
-    font-family: Raleway,
-        sans-serif;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 800;
     line-height: 1.17;
@@ -261,8 +253,7 @@ body {
 
 .footer-logo {
     color: var(--iris, #4D5AE5);
-    font-family: Raleway,
-        sans-serif;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 800;
     line-height: 1.17;
