@@ -292,5 +292,150 @@ body {
 
 
 
-/*?----------------------PORTFOLIO-PAGE_______________*/
+/*?----------------------PORTFOLIO-PAGE-------------------*/
 
+
+/*----------------------BUTTONS-------------------------*/
+
+.btn-all {
+    color: var(--iris, #4D5AE5);
+    /* Button Text */
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.04em;
+    background-color: var(--cloud, #F4F4FD);
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+}
+
+.btn-all:hover {
+    background-color: #404bbf;
+    color: #FFFFFF
+}
+
+.btn-all:focus {
+    background-color: #404bbf;
+    color: #FFFFFF
+}
+
+.btn-site {
+    color: var(--iris, #4D5AE5);
+    /* Button Text */
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.04em;
+    background-color: var(--cloud, #F4F4FD);
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+}
+
+.btn-site:hover {
+    background-color: #404bbf;
+    color: #FFFFFF
+}
+
+.btn-site:focus {
+    background-color: #404bbf;
+    color: #FFFFFF
+}
+
+.btn-app {
+    color: var(--iris, #4D5AE5);
+    /* Button Text */
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.04em;
+    background-color: var(--cloud, #F4F4FD);
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+}
+
+.btn-app:hover {
+    background-color: #404bbf;
+    color: #FFFFFF
+}
+
+.btn-app:focus {
+    background-color: #404bbf;
+    color: #FFFFFF
+}
+
+.btn-design {
+    color: var(--iris, #4D5AE5);
+    /* Button Text */
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.04em;
+    background-color: var(--cloud, #F4F4FD);
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+}
+
+.btn-design:hover {
+    background-color: #404bbf;
+    color: #FFFFFF
+}
+
+.btn-design:focus {
+    background-color: #404bbf;
+    color: #FFFFFF
+}
+
+.btn-marketing {
+    color: var(--iris, #4D5AE5);
+    /* Button Text */
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.04em;
+    background-color: var(--cloud, #F4F4FD);
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+}
+
+.btn-marketing:hover {
+    background-color: #404bbf;
+    color: #FFFFFF
+}
+
+.btn-marketing:focus {
+    background-color: #404bbf;
+    color: #FFFFFF
+}
+
+/*----------------------IMAGES----------------------*/
+
+.section-list {}
+
+.list {}
+
+.services-title {
+    color: var(--navyblue, #2E2F42);
+    /* Header 3 */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    /* 120% */
+    letter-spacing: 0.02em;
+}
+
+.services-description {
+    color: var(--slate, #434455);
+    /* Body */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.02em;
+}
